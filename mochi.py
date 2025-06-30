@@ -38,10 +38,12 @@ def check_new_processes():
         if proc.info['pid'] not in seen_pids:
             seen_pids.add(proc.info['pid'])
             try:
-                cmdline = ' '.join(proc.info['cmdline']).lower()
-                for word in DANGER_KEYWORDS:
-                    if word in cmdline:
-                        log_detection(proc, word)
+                cmdline_list = proc.info.get('cmdline')
+                if isinstance(cmdline_list, list):
+                    cmdline = ' '.join(cmdline_list).lower()
+                    for word in DANGER_KEYWORDS:
+                        if word in cmdline:
+                            log_detection(proc, word)
             except (psutil.AccessDenied, psutil.NoSuchProcess):
                 continue
 
