@@ -1,4 +1,4 @@
-🍡 Mochi - Sweet & Smart Background Process Scanner
+# 🍡 Mochi - Sweet & Smart Background Process Scanner
 
 Mochi is a lightweight cyber security tool that:
 
