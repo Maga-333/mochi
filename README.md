@@ -2,15 +2,15 @@
 
 Mochi is a lightweight cyber security tool that:
 
-    🍬 Runs silently in the background
+- 🍬 Runs silently in the background
 
-    🧠 Monitors active system processes
+- 🧠 Monitors active system processes
 
-    ⚠️ Flags suspicious or unknown tasks
+- ⚠️ Flags suspicious or unknown tasks
 
-    💾 Logs details into structured reports
+- 💾 Logs details into structured reports
 
-    🖥️ Shows categorized output with simple GUI or CLI
+- 🖥️ Shows categorized output with simple GUI or CLI
 
 🔧 How to Install
 
