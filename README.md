@@ -36,4 +36,4 @@ python3 mochi.py
 # 7. To deactivate the virtual environment
 deactivate
 
-👨‍💻 Developed 💚 by LNT
+👨‍💻 Developed 💛 by LNT
