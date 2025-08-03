@@ -25,7 +25,6 @@ python3 -m venv .venv
 
 # 4. Activate the virtual environment
 source .venv/bin/activate
-# (For Windows: .venv\Scripts\activate)
 
 # 5. Install the required dependencies
 pip install -r requirements.txt
