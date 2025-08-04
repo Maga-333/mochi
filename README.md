@@ -10,7 +10,7 @@ Mochi is a lightweight cyber security tool that:
 
 - 💾 Logs details into structured reports
 
-- 🖥️ Shows categorized output with simple GUI or CLI
+- 🖥️ Shows categorized output with simple CLI
 
 🔧 How to Install
 
