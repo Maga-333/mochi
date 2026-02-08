@@ -123,12 +123,6 @@ class MochiGUI:
         self.continue_button = ctk.CTkButton(self.sidebar, text="▶️ Continue Monitoring", command=self.continue_monitoring, fg_color="blue", hover_color="lightblue", corner_radius=25, font=self.cute_font, state="disabled")
         self.continue_button.pack(pady=15)
         
-        self.filter_button = ctk.CTkButton(self.sidebar, text="🔍 Filter Dangers", command=self.filter_dangers, fg_color="orange", corner_radius=25, font=self.cute_font)
-        self.filter_button.pack(pady=15)
-        
-        self.show_all_button = ctk.CTkButton(self.sidebar, text="📋 Show All Results", command=self.show_all_results, fg_color="purple", corner_radius=25, font=self.cute_font)
-        self.show_all_button.pack_forget()  # Hide initially
-        
         self.export_button = ctk.CTkButton(self.sidebar, text="Export Results", command=self.export_results, fg_color="blue", corner_radius=25, font=self.cute_font)
         self.export_button.pack(pady=15)
         
