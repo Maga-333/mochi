@@ -114,7 +114,7 @@ class MochiGUI:
             pass
         
         # Sidebar Buttons
-        self.start_button = ctk.CTkButton(self.sidebar, text="▶️ Start Monitoring 😄", command=self.start_monitoring, fg_color="green", hover_color="lightgreen", corner_radius=25, font=self.cute_font)
+        self.start_button = ctk.CTkButton(self.sidebar, text="▶️ Start Monitoring", command=self.start_monitoring, fg_color="green", hover_color="lightgreen", corner_radius=25, font=self.cute_font)
         self.start_button.pack(pady=15)
         
         self.stop_button = ctk.CTkButton(self.sidebar, text="⏹️ Stop Monitoring", command=self.stop_monitoring, fg_color="red", hover_color="darkred", corner_radius=25, font=self.cute_font, state="disabled")
@@ -126,7 +126,7 @@ class MochiGUI:
         self.export_button = ctk.CTkButton(self.sidebar, text="Export Results", command=self.export_results, fg_color="blue", corner_radius=25, font=self.cute_font)
         self.export_button.pack(pady=15)
         
-        self.exit_button = ctk.CTkButton(self.sidebar, text="Exit 😘", command=root.quit, fg_color="red", hover_color="pink", corner_radius=25, font=self.cute_font)
+        self.exit_button = ctk.CTkButton(self.sidebar, text="Exit", command=root.quit, fg_color="red", hover_color="pink", corner_radius=25, font=self.cute_font)
         self.exit_button.pack(pady=15)
         
         # Main Frame
