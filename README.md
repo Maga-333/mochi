@@ -32,6 +32,9 @@ pip install -r requirements.txt
 # 6. Run the Mochi scanner tool
 python3 mochi.py
 
+# 6. Run the Mochi scanner tool in Mobile(Termux)
+python3 mochi_mobile.py
+
 # 7. To deactivate the virtual environment
 deactivate
 
