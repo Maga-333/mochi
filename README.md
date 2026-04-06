@@ -38,10 +38,11 @@ python3 mochi_mobile.py
 # 7. To deactivate the virtual environment
 deactivate
 
-# If running in background:
-# Stop the process
+# 8. If running in background:
+# 8.1 Stop the process
 kill PID
-# Force stop (if needed):
+# 8.2 Force stop (if needed):
 kill -9 PID
+
 
 👨‍💻 Developed 💛 by LNT
