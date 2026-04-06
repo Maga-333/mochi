@@ -39,9 +39,9 @@ python3 mochi_mobile.py
 deactivate
 
 # If running in background:
-kill <PID>
+kill PID
 
 # Force stop (if needed):
-kill -9 <PID>
+kill -9 PID
 
 👨‍💻 Developed 💛 by LNT
