@@ -87,7 +87,7 @@ def monitor_background(log_callback, progress_callback):
         check_new_processes(log_callback, progress_callback)
         time.sleep(2)
 
-# ================= CUTE & PROFESSIONAL GUI ================= #
+# ================= PROFESSIONAL GUI ================= #
 class MochiGUI:
     def __init__(self, root):
         self.root = root
@@ -114,19 +114,19 @@ class MochiGUI:
             pass
         
         # Sidebar Buttons
-        self.start_button = ctk.CTkButton(self.sidebar, text="▶️ Start Monitoring", command=self.start_monitoring, fg_color="green", hover_color="lightgreen", corner_radius=25, font=self.cute_font)
+        self.start_button = ctk.CTkButton(self.sidebar, text="▶️ Start Monitoring", command=self.start_monitoring, fg_color="green", hover_color="lightgreen", corner_radius=25)
         self.start_button.pack(pady=15)
         
-        self.stop_button = ctk.CTkButton(self.sidebar, text="⏹️ Stop Monitoring", command=self.stop_monitoring, fg_color="red", hover_color="darkred", corner_radius=25, font=self.cute_font, state="disabled")
+        self.stop_button = ctk.CTkButton(self.sidebar, text="⏹️ Stop Monitoring", command=self.stop_monitoring, fg_color="red", hover_color="darkred", corner_radius=25, state="disabled")
         self.stop_button.pack(pady=15)
         
-        self.continue_button = ctk.CTkButton(self.sidebar, text="▶️ Continue Monitoring", command=self.continue_monitoring, fg_color="blue", hover_color="lightblue", corner_radius=25, font=self.cute_font, state="disabled")
+        self.continue_button = ctk.CTkButton(self.sidebar, text="▶️ Continue Monitoring", command=self.continue_monitoring, fg_color="blue", hover_color="lightblue", corner_radius=25, state="disabled")
         self.continue_button.pack(pady=15)
         
-        self.export_button = ctk.CTkButton(self.sidebar, text="Export Results", command=self.export_results, fg_color="blue", corner_radius=25, font=self.cute_font)
+        self.export_button = ctk.CTkButton(self.sidebar, text="Export Results", command=self.export_results, fg_color="blue", corner_radius=25)
         self.export_button.pack(pady=15)
         
-        self.exit_button = ctk.CTkButton(self.sidebar, text="Exit", command=root.quit, fg_color="red", hover_color="pink", corner_radius=25, font=self.cute_font)
+        self.exit_button = ctk.CTkButton(self.sidebar, text="Exit", command=root.quit, fg_color="red", hover_color="pink", corner_radius=25)
         self.exit_button.pack(pady=15)
         
         # Main Frame
@@ -166,7 +166,7 @@ class MochiGUI:
         self.progress.pack(pady=15)
         self.progress.set(0)
         
-        self.status_label = ctk.CTkLabel(self.main_frame, text="Ready to monitor! 🍡", font=self.cute_font)
+        self.status_label = ctk.CTkLabel(self.main_frame, text="Ready to monitor! 🍡")
         self.status_label.pack(pady=10)
         
         # Spinner
